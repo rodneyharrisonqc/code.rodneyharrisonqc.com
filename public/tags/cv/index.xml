@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cv on Rodney Harrison QC</title>
+    <link>http://replace-this-with-your-hugo-site.com/tags/cv/</link>
+    <description>Recent content in Cv on Rodney Harrison QC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jan 2016 15:23:14 +1300</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>cv</title>
+      <link>http://replace-this-with-your-hugo-site.com/cv/cv/</link>
+      <pubDate>Wed, 13 Jan 2016 15:23:14 +1300</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/cv/cv/</guid>
+      <description>&lt;p&gt;Biographical details&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
