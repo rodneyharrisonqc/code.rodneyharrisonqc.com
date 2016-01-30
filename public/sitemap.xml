@@ -2,8 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <loc>http://rodneyharrisonqc.com/</loc>
+    <lastmod>2016-01-13T15:23:14+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rodneyharrisonqc.com/cv/cv/</loc>
+    <lastmod>2016-01-13T15:23:14+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rodneyharrisonqc.com/about/</loc>
+    <lastmod>2016-01-13T12:57:12+13:00</lastmod>
   </url>
   
 </urlset>
