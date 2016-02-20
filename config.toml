@@ -1,8 +1,9 @@
 # Site settings
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://rodneyharrisonqc.com/"
 languageCode = "en-us"
-title = "Hugo Agency Theme"
+title = "Rodney Harrison QC"
 theme = "hugo-agency-theme"
+
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
@@ -17,8 +18,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Rodney Harrison QC"
+	description = "A leading Auckland Barrister"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -31,57 +32,59 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "your@email.com"
+	email = "rehqc@xtra.co.nz"
 
 
 	# Navigation
 	[params.navigation]
-		brand = "The Agency"
-		services = "Services"
-		portfolio = "Portfolio"
-		about = "About"
-		team = "Team"
+		# brand = "The Agency"
+		services = "About"
 		contact = "Contact"
+		# portfolio = "Contact"
+		# about = "About"
+		# team = "Team"
+		
 
 
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
-		subtitle = "It's nice to meet you"
-		buttonText = "Tell me more"
+		title = "Rodney Harrison QC"
+		# subtitle = "It's nice to meet you"
+		buttonText = "About"
 
 
 	# Services section
 	[params.services]
-		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "About"
+		subtitle = "Dr Rodney Harrison QC is a leading Auckland Barrister"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                # icon = "fa-shopping-cart"
+                title = "A Leading Advocate"
+                description = "Dr Rodney Harrison QC has expertise in commercial disputes of all kinds. He is particularly renowned as an advocate on employment and public law matters. A QC since 1994, he has a respected depth of experience, and is often retained to take commercial matters on appeal."
 
             [[params.services.row.list]]
-                icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                # icon = "fa-laptop"
+                title = "Office Location"
+                description = "Southern Cross Chambers, Level 10, Southern Cross Building, corner of High Street and Victoria Street East, Auckland CBD."
 
             [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                # icon = "fa-lock"
+                title = "Phone"
+                description = "Office: (09)-303-4157      Cellphone: 0274-925945"
 
 	# Portfolio section
+
 	[params.portfolio]
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
-		title = "Portfolio"
+		title = "Contact"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
 		[params.portfolio.modal]
@@ -185,9 +188,9 @@ googleAnalytics = ""
 
 	# Contact section
 	[params.contact]
-		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
-		buttonText = "Send message"
+		title = "Contact"
+		subtitle  = "To email Rodney, fill in the form below"
+		buttonText = "Email Rodney"
 
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]
@@ -230,3 +233,4 @@ googleAnalytics = ""
 		[[params.footer.quicklinks]]
 			text = "Terms of Use"
 			link = "#"
+
