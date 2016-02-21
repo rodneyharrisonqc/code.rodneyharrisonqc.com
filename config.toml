@@ -1,11 +1,11 @@
 # Site settings
 baseurl = "http://rodneyharrisonqc.com/"
 languageCode = "en-us"
-title = "Rodney Harrison QC"
-theme = "hugo-agency-theme"
+title = "Rodney Harrison QC | Leading Auckland Barrister"
+theme = "orakei"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-63065404-1"
 
 [params]
 
@@ -19,7 +19,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Rodney Harrison QC"
-	description = "A leading Auckland Barrister"
+	description = "Leading Auckland Barrister"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -33,17 +33,14 @@ googleAnalytics = ""
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
 	email = "rehqc@xtra.co.nz"
-
-
+	
 	# Navigation
 	[params.navigation]
-		# brand = "The Agency"
-		services = "About"
+		brand = "Rodney Harrison QC"
+		about = "About"
 		contact = "Contact"
-		# portfolio = "Contact"
-		# about = "About"
-		# team = "Team"
-		
+		location = "Location"
+		papers = "Papers"		
 
 
 	# Hero section
@@ -51,186 +48,120 @@ googleAnalytics = ""
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = "Rodney Harrison QC"
-		# subtitle = "It's nice to meet you"
+		subtitle = ""
 		buttonText = "About"
-
-
-	# Services section
-	[params.services]
-		title = "About"
-		subtitle = "Dr Rodney Harrison QC is a leading Auckland Barrister"
-
-        [[params.services.row]]
-
-            [[params.services.row.list]]
-                # icon = "fa-shopping-cart"
-                title = "A Leading Advocate"
-                description = "Dr Rodney Harrison QC has expertise in commercial disputes of all kinds. He is particularly renowned as an advocate on employment and public law matters. A QC since 1994, he has a respected depth of experience, and is often retained to take commercial matters on appeal."
-
-            [[params.services.row.list]]
-                # icon = "fa-laptop"
-                title = "Office Location"
-                description = "Southern Cross Chambers, Level 10, Southern Cross Building, corner of High Street and Victoria Street East, Auckland CBD."
-
-            [[params.services.row.list]]
-                # icon = "fa-lock"
-                title = "Phone"
-                description = "Office: (09)-303-4157      Cellphone: 0274-925945"
-
-	# Portfolio section
-
-	[params.portfolio]
-		# All projects defined in their own files. You can find example projects
-		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-		# at the root of this Hugo site.
-		# For more informtion take a look at the README.
-		title = "Contact"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-
-		[params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttonText = "Close project"
 
 
     # About section
 	[params.about]
 		title = "About"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "Rodney Harrison QC is a leading New Zealand barrister"
 		endpoint = "Be part<br>of our<br>story!"
 
-		# The events will be listed from the top to the bottom.
-		# All images are stored under 'static/img/about'.
-		# Replace them with your own.
-		[[params.about.events]]
-			img = "1.jpg"
-			date = "2009-2011"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+		left_column_title = "Leading NZ Barrister"
+		left_column = "Appointed Queen's Counsel in 1994, Rodney is a senior Silk counted among New Zealand's most expert advocates. He is renowned as an expert in commercial disputes of all kinds, and is frequently retained to take matters on appeal."
 
-		[[params.about.events]]
-			img = "2.jpg"
-			date = "March 2011"
-			title = "An Agency is Born"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+		right_column_title = "Recognised in the Pacific"
+		right_column = "Rodney is respected as an advocate throughout the Pacific, where he has acted in numerous leading cases. He is a member of the Bars of New Zealand; the Cook Islands; Samoa; and Tonga, where he holds the rank equivalent to Queen's Counsel."
 
-		[[params.about.events]]
-			img = "3.jpg"
-			date = "December 2012"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-		[[params.about.events]]
-			img = "4.jpg"
-			date = "July 2014"
-			title = "Phase Two Expansion"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-
-	# Team section
-	[params.team]
-		title = "Our amazing team"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-		# All team member's pictures are stored under 'static/img/team'.
-		# Replace them with your own too.
-		[[params.team.members]]
-			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
+		[[params.about.rodney]]
+			img = "rodney.jpg"
+			name = "Rodney Harrison QC"
+			position = "Barrister"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-google-plus", "https://plus.google.com/117506033107770135947/about"],
+				["fa-linkedin", "https://nz.linkedin.com/in/rodney-harrison-qc-657509ba"],
+				["fa-envelope", "mailto:rehqc@xtra.co.nz"]
 			]
-
-		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-	# Client section
-	# All the clients' logos are stored under 'static/img/logos'.
-	# Replace them with your clients's logos.
-	[[params.clients]]
-		logo = "envato.jpg"
-		link = "#"
-
-	[[params.clients]]
-		logo = "designmodo.jpg"
-		link = "#"
-
-	[[params.clients]]
-		logo = "themeforest.jpg"
-		link = "#"
-
-	[[params.clients]]
-		logo = "creative-market.jpg"
-		link = "#"
-
 
 	# Contact section
 	[params.contact]
 		title = "Contact"
-		subtitle  = "To email Rodney, fill in the form below"
-		buttonText = "Email Rodney"
+		
+		address = ["Dr Rodney Harrison QC",
+			"Level 10, Southern Cross Building",
+			"59 High Street",
+			"Corner High Street and Victoria Street",
+			"Auckland CBD"]
 
-		# 'warning' defines error messages for invalid inputs
-		[params.contact.form.name]
-			text = "Your Name *"
-			warning = "Please enter your name."
+		[[params.contact.modes]]
+			mode = "Office Phone"
+			icon = "fa-phone"
+			text = ["(09) 303-4157"]
+			link = "#contact"
 
-		[params.contact.form.email]
-			text = "Your Email *"
-			warning = "Please enter your email address."
+		[[params.contact.modes]]
+			mode = "Postal"
+			icon = "fa-envelope"
+			text = ["PO Box 1153",
+			"Auckland 1140",
+			"New Zealand"]
+			link = "#contact"
 
-		[params.contact.form.phone]
-			text = "Your Phone *"
-			warning = "Please enter your phone number."
+		[[params.contact.modes]]
+			mode = "Cellphone"
+			icon = "fa-phone"
+			text = ["0274-925945"]
+			link = "#contact"
 
-		[params.contact.form.message]
-			text = "Your Message *"
-			warning = "Please enter a message."
+		[[params.contact.modes]]
+			mode = "Email"
+			icon = "fa-envelope"
+			text = ["rehqc@xtra.co.nz"]
+			link = "mailto:rehqc@xtra.co.nz"
 
+	# Location
+	[params.location]
+		title = "Location"
+
+	# Papers section
+
+	[params.papers]
+		title = "Selected Papers"
+		
+		[[params.papers.paper]]
+			id = "1"
+			link = "/papers/REHQC_Chapman_v.pdf"
+			title = "Attorney-General v Chapman: Negating Effective Remedies for Judicial Breach of the Bill of Rights"
+			blurb = "In Attorney-General v Chapman [2012] 1 NZLR 462, a divided Supreme Court has ruled out all prospect of a Baigent damages remedy for breach by the judicial branch of the New Zealand Bill of Rights Act 1990 (“judicial BORA breach”). "
+
+	
+		[[params.papers.paper]]
+			id = "2"
+			link = "/papers/REHQC_Human_Rights_Remedies.pdf"
+			title = "Using Human Rights Law in Litigation: Remedies for Breach of the New Zealand Bill of Rights Act 1990"
+			blurb = "This paper addresses the topic of remedies for breach of the New Zealand Bill of Rights Act 1990 (“BORA”). It is mainly concerned with civil remedies for BORA breach."
+	
+		[[params.papers.paper]]
+			id = "3"
+			link = "/papers/REHQC_Human_Rights_Employment.pdf"
+			title = "Employment Law and Human Rights – A Crucial Interface”"
+			blurb = "The focus of this paper is the “crucial interface” between employment law and human rights norms."
+
+		
+		[[params.papers.paper]]
+			id = "4"
+			link = "/papers/REHQC_Bernard_Brown.pdf"
+			title = "Address for Bernard Brown, 17 October 2013"
+			blurb = "It is a tremendous but daunting honour to have been asked by Bernard to serve as an hors d’oeuvre to his splendid repast which will shortly follow."
+	
+		
 
 	# Footer section
 	[params.footer]
-		copyright = "Published under the Apache License 2.0."
+		copyright = "2016 Rodney Harrison QC"
+
+		thanks = "Built with [Hugo](https://gohugo.io) and the [Agency](https://themes.gohugo.io/agency/) theme"
 
 		[[params.footer.social]]
-			icon = "fa-twitter"
-			link = "#"
-
-		[[params.footer.social]]
-			icon = "fa-facebook"
-			link = "#"
+			icon = "fa-google-plus"
+			link = "https://plus.google.com/117506033107770135947/about"
 
 		[[params.footer.social]]
 			icon = "fa-linkedin"
-			link = "#"
+			link = "https://nz.linkedin.com/in/rodney-harrison-qc-657509ba"
 
-		[[params.footer.quicklinks]]
-			text = "Privacy Policy"
-			link = "#"
-
-		[[params.footer.quicklinks]]
-			text = "Terms of Use"
-			link = "#"
+		[[params.footer.social]]
+			icon = "fa-envelope"
+			link = "mailto:rehqc@xtra.co.nz"
 
