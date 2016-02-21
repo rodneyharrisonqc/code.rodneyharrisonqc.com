@@ -284,7 +284,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: Georgia,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: bold;
     line-height: 22px;
@@ -306,7 +306,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: Georgia,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-style: bold;
         line-height: 40px;
