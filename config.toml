@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://rodneyharrisonqc.com/"
+baseurl = "http://rodneyharrisonqc.github.io/"
 languageCode = "en-us"
 title = "Rodney Harrison QC | Leading Auckland Barrister"
 theme = "orakei"
