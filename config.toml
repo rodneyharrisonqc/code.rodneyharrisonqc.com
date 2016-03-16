@@ -18,7 +18,7 @@ googleAnalytics = "UA-63065404-1"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Rodney Harrison QC"
+	name = "Dr Rodney Harrison QC"
 	description = "Leading Auckland Barrister"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
@@ -36,7 +36,7 @@ googleAnalytics = "UA-63065404-1"
 	
 	# Navigation
 	[params.navigation]
-		brand = "Rodney Harrison QC"
+		brand = "Dr Rodney Harrison QC"
 		about = "About"
 		contact = "Contact"
 		location = "Location"
@@ -47,7 +47,7 @@ googleAnalytics = "UA-63065404-1"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Rodney Harrison QC"
+		title = "Dr Rodney Harrison QC"
 		subtitle = ""
 		buttonText = "About"
 
